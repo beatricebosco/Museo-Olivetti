@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Lettera di Flavio Costantini a Giorgio Soavi,1980,digital version</title>
+				<author>Flavio Costantini (1926-2013)</author>
+				
+				<respStmt>
+					<resp>Codifica TEI</resp>
+					<resp>Trascrizione</resp>
+					<persName xml:id="BB">Beatrice Bosco</persName>
+				</respStmt>
+			</titleStmt>
+
+			<publicationStmt>
+				<p>© Copyright 2021 Beatrice Bosco- Dipartimento di Arti Visive, Università di Bologna.</p>	
+			</publicationStmt>
+			
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement><placeName>Ivrea</placeName></settlement>
+						<repository>Associazione Archivio Storico Olivetti</repository>
+					</msIdentifier>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+
+		<profileDesc>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName xml:id="CF">Flavio Costantini</persName>
+					<placeName>Rapallo</placeName>
+					<date when="1980-01-08">8 gennaio 1980</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName xml:id="SG">Giorgio Soavi</persName>
+					<placeName>Dir. Relazioni Culturali "Olivetti"s.p.a via Clerici 4/6, 20121 Milano</placeName>
+					<date>unknown</date>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+	
+	</teiHeader>
+
+
+	<text type="letter">
+		<body>
+			<opener>
+				<persName ref="#CF">Flavio Costantini</persName>
+					Corso Colombo,42
+				<placeName>16035 Rapallo (Italia)</placeName>
+					Tel.(0185)53375
+					
+				<persName ref="#SG">Sig. Giorgio Soavi</persName>
+					Dir. Relazioni Culturali
+					"Olivetti" S.p.A
+					Via Clerici, 4/6 
+					20121 Milano
+				
+				<salute>Carissimo</salute>
+
+			</opener>
+
+
+			<p>stamattina m'è venuta un'idea peregrina:
+				nei vostri archivi storico-fotografici avete qualche immagine di uno
+				dei primi negozi di vendita OLIVETTI?
+				dovrebbe essere per lo meno del <date when="1920">1920</date>
+				o comunque old fashion
+				potrebbe essere una mia ruffianeria, utile tuttavia
+				da inserire nella 
+				<term>serie <note n="1" place="bottom" resp="#BB">riferimento alla serie di manifesti che l'artista doveva realizzare per l'agenda del 1981</note></term>
+				è solo un'idea e di stamattina per altro
+				una mattina che volge al peggio: nuvoloni neri si addensano sui monti 
+				prospic<add place="supralinear">i</add>enti 
+			</p>
+				
+			<closer>
+				<salute>ti abbraccio</salute>
+				
+				<signed>
+					<persName>Flavio</persName>
+				</signed>
+				
+				<dateline>
+					<placeName>Rapallo</placeName>,
+					<date when="1979-01-08">8 gennaio<del rend="strikethrough">1979</del>
+					<add>1980</add></date>
+				</dateline>
+			</closer>
+
+			
+		</body>
+	</text>
+</TEI>
+
+
+		

@@ -1,0 +1,191 @@
+/* google fonts */
+@import @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@200&display=swap');
+
+
+.title-nav{
+  font-family: 'Noto Sans Mono', monospace;
+}
+
+/*SFONDO */
+.background-macchine{
+  background-image: url("../img-sfondo/olivetti-macchine.jpeg");
+  background-attachment: fixed;
+}
+
+#searchButton {
+  background : gray;
+  color: white ;
+  border: 2px gray;
+}
+
+#searchButton:hover {
+  color: gray;
+  background-color: white;
+}
+
+
+#searchForm {
+  border: 2px;
+  color: gray;
+}
+
+
+/*CAROUSEL HOME*/
+#carousel-08  {  
+    background-image: url("../img-sfondo/Locandine-pintori.jpeg");
+}
+
+/*SEZIONE PROGETTO */
+#progetto {  
+  padding-left: 10px;
+  
+  
+
+}
+
+#jumbotron-progetto {
+  width: 60%;
+  margin-left: 40px;
+  height: 450px;
+}
+
+#btn-project {
+background-color: gray;
+color: white;
+border: gray;
+
+
+}
+
+#btn-project:hover {
+  color: gray;
+  background-color: white;}
+
+
+/*SEZIONE COLLEZIONE */
+#jumbotron-collezione {
+  width: 30%;
+  margin-left: 60px;
+
+}
+
+/*CARD INDEX*/
+.card-tool {
+  height: 440px;
+}
+
+.btn-card {
+  position: absolute;
+  bottom: 25px;
+}
+
+/*-----*/
+
+
+#btn-ivrea {
+background-color: gray;
+color: white;
+border: gray;
+margin-bottom: 8px;
+
+}
+
+#btn-ivrea:hover {
+  color: grey;
+  background-color: white;
+
+}
+
+
+
+#esplora-ivrea {  
+  padding-left: 80px;
+
+
+}
+
+/*#div-esplora {
+  height:  ;
+}*/
+
+#box-esplora { 
+  width: 1100px;
+  margin-left: 90px;
+  padding: 5px;
+  background-color: #b3b3b3;
+  padding-top: 20px;
+  border-radius: 20px;
+  /*margin-top: 50px;*/
+
+}
+
+
+.card-tool {
+  width: 18rem;
+  height: 30rem;
+  margin-bottom:30px;
+  margin-left: 18px;
+
+}
+
+#box-ivrea{
+  margin-left: 140px;
+}
+
+#ivreaContainer{
+  background-color: #b3b3b3;
+  padding-top: 20px;
+  border-radius: 20px;
+}
+
+.testo-index {
+  margin-top: 8px;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+#frame-ivrea {
+  width: 94%;
+  margin-top: 10px;
+  margin-left: 3%;
+  margin-bottom: 15px;
+  border-radius: 12px;
+}
+
+
+footer {
+  height: 300px;
+  
+  background-color: lightgray;
+  color: black;
+}
+
+footer h2 {
+  margin-top: 30px;
+}
+
+#btn-footer{
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 30px;
+
+}
+
+#btn-footer:hover {
+color: grey;
+background-color: white;
+
+
+}
+
+
+.link-f {
+  color: black;
+  text-decoration: underline
+}
+
+
+
+
+
+

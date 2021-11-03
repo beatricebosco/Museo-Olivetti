@@ -1,0 +1,82 @@
+/* google fonts */
+@import @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@200&display=swap');
+
+
+.title-nav{
+  font-family: 'Noto Sans Mono', monospace;
+
+}
+
+.background-gray {
+  background-color: lightgray;
+}
+
+h2 {
+  background-color: lightgray;
+}
+
+.card{ 
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#col-scopri{
+    margin-left: 3%;
+}
+
+#col-carousel{
+  margin-left: 3%;
+}
+
+#btn-card {
+  background-color: gray;
+color: white;
+border: gray;
+}
+
+#btn-card:hover {
+  color: grey;
+  background-color: white;}
+
+.card-corr {
+  width: 80%;
+  margin-top: 10%;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+img {
+  width: 50%;
+  margin: auto;
+}
+
+footer {
+  height: 300px;
+}
+
+footer h2 {
+  margin-top: 30px;
+}
+
+#btn-footer {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 30px;
+
+}
+
+#btn-footer:hover {
+color: grey;
+background-color: white;}
+
+
+
+.link-f {
+  color: black;
+  text-decoration: underline
+}
+
+#in-catalogo{
+  margin-top: 40px;
+}
+

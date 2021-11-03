@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mp:metadata xmlns:mp="http://example.org/MyProject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"  xsi:schemaLocation="http://example.org/MyProject/ http://example.org/MyProject/schema.xsd">
+
+	<dc:title>Olivetti Valentine</dc:title>
+	<dc:creator xsi:type="mp:ULAN" mp:ref="http://vocab.getty.edu/page/ulan/500019835">Ettore Sottsass</dc:creator>
+
+	<dc:date type="creation">1969</dc:date>
+	<dc:date type="subject">1917-2007</dc:date>
+
+	<dc:subject xml:lang="it">macchina da scrivere,design</dc:subject>
+	
+	<!--soggetto macchina da scrivere-->
+	<dc:subject xsi:type="mp:BNCF"> 22179</dc:subject>
+
+	<!--soggetto design-->
+	<dc:subject xsi:type="dcterms:LCC">http://id.loc.gov/authorities/classification/TS195.4</dc:subject>
+
+
+	<dc:description>La Olivetti Valentine è una macchina da scrivere progettata da Ettore sottsass
+	e prodotta a partire dal 1969.
+	E' molto innovativa rispetto alle altre in quanto presenta una maniglia che la rende portabile, per questo è considerata una delle icone del Pop design. 
+	
+	</dc:description>
+
+	<dc:publisher>Olivetti Collections,Digital Humanities project,Università di Bologna
+	</dc:publisher>
+
+	<dc:contributor>Beatrice Bosco</dc:contributor>
+
+	<dc:type>Macchina da scrivere</dc:type>
+
+	<dc:format>11.7 x 34.3 x 35.2 cm</dc:format>
+
+	<dc:identifier>https://www.moma.org/collection/works/4576</dc:identifier>
+
+	<dc:source>https://www.moma.org/collection/works/4576</dc:source>
+
+	<dc:language>it</dc:language>
+
+	<dc:relation>https://www.moma.org/collection/works/4576</dc:relation>
+
+	<dc:provenance>Modern Museum of Modern Art, New York</dc:provenance>
+
+
+
+
+
+</mp:metadata>
