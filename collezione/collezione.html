@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		
+		<!-- charset-->
+		<meta charset="utf-8">
+		<!--viewport-->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+		<!--Bootstrap CSS-->
+		<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
+		<!--CSS--> 
+		<link rel="stylesheet" type="text/css" href="stile-collezione.css">
+		
+		<!-- bootstrap icons -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+
+
+		<!--link font-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@200&display=swap" rel="stylesheet">
+
+		<title>Olivetti Collections</title>
+
+	</head>
+
+	<body>
+		<header>
+			<!--NAVBAR-->
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+				<a class="navbar-brand" href="#" id="navbar"><h1 class="title-nav">Olivetti Collections</h1></a>
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+
+						<li class="nav-item active">
+							<a class="nav-link" href="../index.html" title="home">Home <span class="sr-only">(current)</span></a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="../index.html">Il Progetto</a>
+						</li>
+
+						<li class="nav-item dropdown">
+
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Collezione
+							</a>
+
+							
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item" href="../collezione/collezione.html" title="Elenco completo">Elenco completo</a></li>
+									<li><hr class="dropdown-divider"></li>
+									<li><a class="dropdown-item" href="#">Macchine da scrivere e altri prodotti</a></li>
+									<li><a class="dropdown-item" href="#">Locandine</a></li>
+									<li><a class="dropdown-item" href="#">Spot pubblicitari</a></li>
+									<li><a class="dropdown-item" href="#">Libri strenna e agende</a></li>
+									<hr>
+									<li><a class="dropdown-item" href="#">Cataloghi</a></li>
+									<li><a class="dropdown-item" href="#">Corrispondenze</a></li>
+									
+								</ul>
+								
+
+						</li>
+
+
+						<li class="nav-item dropdown">
+
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Esplora per
+								</a>
+
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="#" title="Elenco completo">Macchine da scrivere</a>
+									<a class="dropdown-item" href="#">Protagonisti</a>
+									<a class="dropdown-item" href="#">Timeline</a>
+								</div>
+
+						</li>
+
+
+
+						<li class="nav-item dropdown">
+
+								<a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Ivrea 
+								</a>
+
+								 
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item" href="https://uploads.knightlab.com/storymapjs/d667c92543c5362dacf65278661ea97b/ivrea-1/index.html" title="Esplora la Storymap dei luoghi">Esplora la Storymap</a></li>
+								</ul>
+						</li>
+
+
+					</ul>
+
+
+						<form class="form-inline my-2 my-lg-0" id="searchForm">
+							<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+							<button class="btn btn-outline-success my-2 my-sm-0" id="searchButton" type="submit">Cerca</button>
+						</form>
+
+				</div>
+
+			</nav>
+
+
+
+		</header>	
+
+
+		<!-- main -->
+		<main>
+
+			<section class="container-fluid">
+				<div class="row titolo-pagina">
+					<div class="col md-12 pb-4 pt-4">
+						<h2 class="text-dark text-center">Elenco Completo</h2>
+						<h2 class="text-dark text-center title-page">Olivetti Collections</h2>
+
+					</div>
+				</div>
+
+
+					
+				<div class="row"> <!--row totale-->
+
+					<!--SIDEBAR SX--> 
+					<div class="col-md-2 col-sm-2 col-xs-12 mt-4">
+						<aside>
+								<!--Breadcrumbs-->
+								<nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+									<ol class="breadcrumb">
+										<li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+										<li class="breadcrumb-item active" aria-current="page">Elenco completo</li>
+									
+
+									</ol>
+								</nav>	
+
+								<!--FILTRI-->
+
+								<div class="checkbox-container">
+									<h4>Ordina per:</h4>
+									<div class="btn-group dropright">
+									    <button class="btn btn-secondary dropdown-toggle" id="luoghiDropdown" data-toggle="dropdown" aria-expanded="false">
+											Cronologia
+										</button>
+									    <ul class="dropdown-menu" aria-labelledby="luoghiDropdown">
+									    <!-- Dropdown menu links -->
+										    <li><a class="dropdown-item" href="#">Dal più recente</a></li>
+										    <li><a class="dropdown-item" href="#">Dal meno recente</a></li>
+									    </ul>
+									</div>
+
+
+									<h4>Filtra per:</h4>
+									<div class="btn-group dropright">
+									    <button class="btn btn-secondary dropdown-toggle" id="luoghiDropdown" data-toggle="dropdown" aria-expanded="false">
+											Luoghi
+										</button>
+									    <ul class="dropdown-menu" aria-labelledby="luoghiDropdown">
+									    <!-- Dropdown menu links -->
+										    <li><a class="dropdown-item" href="#">Archivio storico Olivetti,Ivrea.</a></li>
+										    <li><a class="dropdown-item" href="#">MoMa, New York</a></li>
+										    <li><a class="dropdown-item" href="#">Archivio nazionale cinema d'impresa,Ivrea</a></li>
+										    <li><a class="dropdown-item" href="#">Museo Tecnologicamente,Ivrea</a></li>
+
+									    </ul>
+									</div>
+								</div>
+
+
+						</aside>	
+
+					</div>
+
+
+
+
+
+
+					<div class="col-md-9 col-sm-9 col-xs-12"><!--col TAB+ITEMS-->
+							
+							<!--TAB-->
+							<div class="row">
+								<div class="col-md-12">
+									<ul class="nav nav-pills nav-fill">
+										<li class="nav-item">
+											<a class="nav-link active" aria-current="page" href="#">Tutti</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#">Macchine da scrivere </a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#">Locandine</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#">Spot pubblicitari</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#">Agende e Libri strenna</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#">Corrispondenze</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#">Cataloghi</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+
+							<!--ITEMS-->
+							<!-- row delle card -->
+							<div class="row">
+
+								<!-- ITEM 1 -->
+								<div class="col-md-4 mt-4">
+									<div class="card card-items">
+										<img src="../img/img-items/olivetti-valentine.jpeg" class="card-img-top" alt="Valentine,Ettore Sottsass,1969">
+										<div class="card-body">
+											<h5 class="card-title">Macchina da scrivere <em>Valentine</em></h5>
+											<p class="card-text">Creatore: <b><a href="https://viaf.org/viaf/93197959/"
+												 title="Identificativo VIAF di Sottsass, Ettore">Sottsass,
+												Ettore<sup>VIAF</sup></a></b>.</p>
+											<p class="card-text">Data: <b><a href="#" title="1969">1969</a></b>.</p>
+											<p class="card-text">Istituzione fornitrice: <b><a
+													href="https://www.moma.org/"
+													
+													title="Pagina del MoMa,New York">MoMa, New York</a></b>.</p>
+											<a href="../item/item.html" class="btn btn-primary">Tutti i metadati</a>
+										</div>
+									</div>
+
+									<!-- ITEM 4 -->
+									<div class="card card-items">
+										<img src="../img/img-items/lettera22-moma.jpeg" class="card-img-top" alt="Lettera 22 Moma">
+										<div class="card-body">
+											<h5 class="card-title">Macchina da scrivere Lettera 22</h5>
+											<p class="card-text">Creatore: <b><a href="https://viaf.org/viaf/30483196/"
+												 title="Identificativo VIAF di Nizzoli, Marcello">Nizzoli,Marcello<sup>VIAF</sup></a></b>.</p>
+											<p class="card-text">Data: <b><a href="#" title="1950">1950</a></b></p>
+											<p class="card-text">Istituzione fornitrice: <b><a
+													href="https://www.moma.org/"
+													
+													title="Pagina del MoMa, New Yotk">MoMa, New York</a></b>.</p>
+											<a href="#" class="btn btn-primary">Tutti i metadati</a>
+										</div>
+									</div>
+
+									<!--ITEM 7-->
+									<div class="card card-items">
+										<img src="../img/img-items/Enricobaj.jpeg" class="card-img-top" alt="Opuscolo della mostra Morandi e montale">
+										<div class="card-body">
+											<h5 class="card-title">Opuscolo della mostra di <em>Enrico Baj</em> presso il Centro Culturale Olivetti</h5>
+											<!--<p class="card-text">Creatore: <b><a href="https://viaf.org/viaf/30311644/"
+												target="_blank" title="Identificativo VIAF di Vela, Vincenzo">Vela,
+												Vincenzo<sup>VIAF</sup></a></b>.</p>-->
+											<p class="card-text">Autore: <b><a href="https://viaf.org/viaf/6887/" title="Enrico Baj">Enrico Baj<sup>VIAF</sup></a></b>.</p>
+											<p class="card-text">Data: <b><a href="#" title="1987">1977</a></b>.</p>
+											<p class="card-text">Istituzione fornitrice: <b><a
+													href="https://www.archiviostoricolivetti.it/"
+													
+													title="Sito web Archivio storico olivetti">Archivio storico Olivetti,Ivrea</a></b>.</p>
+											<a href="#" class="btn btn-primary">Tutti i metadati</a>
+											<a href="#" class="btn btn-primary">Vai al testo</a>
+										</div>
+									</div>
+
+									<!--ITEM 10-->
+
+									<div class="card card-items">
+										<img src="../img/img-items/The-martian-chronicles-folon.jpeg" class="card-img-top" alt="Libro strenna illustrato da Folon">
+										<div class="card-body">
+											<h5 class="card-title">Libro strenna <em>The Martian Chronicles</em> di Ray Bradbury</h5>
+											<p class="card-text">Creatore: <b><a href="https://viaf.org/viaf/59082496/"
+												 title="Identificativo VIAF di Folon,Jean Michel">Folon,Jean Michel<sup>VIAF</sup></a></b>.</p>
+											<p class="card-text">Data: <b><a href="#" title="1979">1979</a></b>.</p>
+											<p class="card-text">Istituzione fornitrice: <b><a
+													href="https://www.archiviostoricolivetti.it/"
+													
+													title="Sito web Archivio storico olivetti">Archivio storico Olivetti,Ivrea</a></b>.</p>
+											<a href="#" class="btn btn-primary">Tutti i metadati</a>
+											<!--<a href="#" class="btn btn-primary">Vai al testo</a>-->
+										</div>
+									</div>
+
+								</div>  <!-- CHIUDE PRIMA COLONNA -->
+
+								
+								<div class="col-md-4 mt-4"><!--APRE SECONDA COLONNA-->
+									
+									<!--ITEM 2-->
+									<div class="card card-items">
+										<img src="../img/img-items/i-cavalli-sanmarco.jpeg" class="card-img-top" alt="Catalogo della mostra del Restauro dei Cavalli di San Marco">
+										<div class="card-body">
+											<h5 class="card-title">Catalogo della mostra<br> "I Cavalli di San Marco</h5>
+											<p class="card-text">Creatore:<b><a href="https://viaf.org/viaf/73887479/"
+												 title="Identificativo VIAF di Zorzi Renzo">Zorzi,Renzo<sup>VIAF</sup></a></b></p>
+											<p class="card-text">Data: <b><a href="#" title="1981">1981</a></b>.</p>
+											<p class="card-text">Istituzione fornitrice: <b><a
+													href="https://www.archiviostoricolivetti.it/"
+													
+													title="Pagina dell'Archivio storico Olivetti,Ivrea">Archivio Storico Olivetti,Ivrea<sup></sup></a></b>.</p>
+											<a href="#" class="btn btn-primary">Tutti i metadati</a>
+											<a href="#" class="btn btn-primary">Vai al testo</a>
+										</div>
+									</div>
+
+									<!--ITEM 5-->
+									<div class="card card-items">
+										<img src="../img/img-items/M11-camillo-tecnologicamente.jpeg" class="card-img-top" alt="Macchina da scrivere M1,1911">
+										<div class="card-body">
+											<h5 class="card-title">Macchina da scrivere M1</h5>
+											<p class="card-text">Creatore: <b><a href="https://viaf.org/viaf/45397376/"
+												title="Identificativo VIAF di Olivetti Camillo">Olivetti,
+												Camillo<sup>VIAF</sup></a></b>.</p>
+											<p class="card-text">Data: <b><a href="#" title="1911">1911</a></b>.</p>
+											<p class="card-text">Istituzione fornitrice: <b><a
+													href="http://www.museotecnologicamente.it/"
+													
+													title="Sito web museo Tecnologicamente">Museo Tecnologicamente,Ivrea</a></b>.</p>
+											<a href="#" class="btn btn-primary">Tutti i metadati</a>
+										</div>
+									</div>
+
+									<!--ITEM 8-->
+									<div class="card card-items">
+										<img src="../img/img-items/Ballmer-poster-lettera32.jpeg" class="card-img-top" alt="Locandina lettera 32,Ballmer">
+										<div class="card-body">
+											<h5 class="card-title">Locandina macchina da scrivere Lettera 32</h5>
+											<p class="card-text">Creatore: <b><a href="https://viaf.org/viaf/88166430/"
+												 title="">Ballmer,Walter<sup>VIAF</sup></a></b>.</p>
+											<p class="card-text">Data: <b><a href="#" title="1968">1968</a></b>.</p>
+											<p class="card-text">Istituzione fornitrice: <b><a
+													href="https://www.archiviostoricolivetti.it/"
+													
+													title="Sito web Archivio storico olivetti">Archivio storico Olivetti,Ivrea</a></b>.</p>
+											<a href="#" class="btn btn-primary">Tutti i metadati</a>
+										</div>
+									</div>
+									
+									<!--ITEM 11-->
+									<div class="card card-items item-costantini">
+										<img src="../img/img-items/lettera-sample.jpeg" class="card-img-top" alt="Libro strenna illustrato da Folon">
+										<div class="card-body">
+											<h5 class="card-title"> Lettera da Flavio Costantini a Giorgio Soavi, 1980</h5>
+											<p class="card-text">Autore: <b><a href="https://viaf.org/viaf/32794517/"
+												title="Identificativo VIAF di Costantini Flavio">Costantini, Flavio<sup>VIAF</sup></a></b>.</p>
+											<p class="card-text">Data: <b><a href="#" title="1980">1980</a></b>.</p>
+											<p class="card-text">Istituzione fornitrice: <b><a
+													href="https://www.archiviostoricolivetti.it/"
+													
+													title="Sito web Archivio storico olivetti">Archivio storico Olivetti,Ivrea</a></b>.</p>
+											<a href="#" class="btn btn-primary">Tutti i metadati</a>
+											<a href="../TEI-t.xml" class="btn btn-primary">Vai al testo</a>
+										</div>
+									</div>
+
+								</div> <!--CHIUDE SECONDA COLONNA-->
+
+								<div class="col-md-4 mt-4"><!--APRE TERZA COLONNA-->
+
+									<!--ITEM 3-->
+									<div class="card card-items">
+										<img src="../img/img-items/video.jpeg" class="card-img-top" alt="Spot pubblicitario Valentine">
+										<div class="card-body">
+											<i class="bi bi-play-btn-fill"></i>
+											<h5 class="card-title">Spot pubblicitario macchina da scrivere Valentine</h5>
+											<p class="card-text">Fornitore: <a href="https://it.wikipedia.org/wiki/Archivio_nazionale_cinema_d%27impresa"><b>Archivio Nazionale del Cinema d'Impresa<sup>Wikipedia</sup> </b></a>.</p>
+											<p class="card-text"> Data: <b><a href="#" title="1969-1970">1969-1970</a></b>.</p>
+											<!--<p class="card-text">Istituzione fornitrice: <b><a
+													href="https://it.wikipedia.org/wiki/Archivio_nazionale_cinema_d%27impresa"
+													
+													title="Pagina Wikipedia Archivio nazionale cinema d'impresa,Ivrea">Archivio Nazionale cinema d'impresa,Ivrea<sup>Wikipedia</sup></a></b>.</p>-->
+											<a href="#" class="btn btn-primary">Tutti i metadati</a>
+										</div>
+									</div>
+
+									<!--ITEM 6-->
+									<div class="card card-items">
+										<img src="../img/img-items/Locandina-dante.jpeg" class="card-img-top" alt="Locandina prima macchina da scrivere M1">
+										<div class="card-body">
+											<h5 class="card-title">Locandina pubblicitaria macchina da scrivere M1</h5>
+											<p class="card-text">Creatore: <b><a href="https://viaf.org/viaf/30643198/"
+												 title="">Wolf Ferrari,Teodoro<sup>VIAF</sup>
+												</a></b>.</p>
+											<p class="card-text">Data: <b><a href="#" title="1912">1912</a></b>.</p>
+											<p class="card-text">Istituzione fornitrice: <b><a
+													href="https://www.archiviostoricolivetti.it/"
+													
+													title="Sito web archivio storico olivetti">Archivio storico Olivetti,Ivrea</a></b>.</p>
+											<a href="#" class="btn btn-primary">Tutti i metadati</a>
+										</div>
+									</div>
+
+									<!--ITEM 9-->
+									<div class="card card-items">
+										<img src="../img/img-items/Folon-agenda.jpeg" class="card-img-top" alt="Agenda illustrata da Folon ">
+										<div class="card-body">
+											<h5 class="card-title">Agenda Olivetti illustrata da Folon</h5>
+											<p class="card-text">Creatore: <b><a href="https://viaf.org/viaf/59082496/"
+												 title="Identificativo VIAF Folon,Jean Michel">Folon,Jean Michel<sup>VIAF</sup></a></b>.</p>
+											<p class="card-text">Data: <b><a href="#" title="1969">1969</a></b>.</p>
+											<p class="card-text">Istituzione fornitrice: <b><a
+													href="https://www.archiviostoricolivetti.it/"
+													
+													title="Sito web Archivio storico olivetti">Archivio storico Olivetti,Ivrea</a></b>.</p>
+											<a href="#" class="btn btn-primary">Tutti i metadati</a>
+										</div>
+									</div>
+								</div> <!-- CHIUDE TERZA COLONNA -->
+
+							</div> <!-- CHIUDE ROW ITEMS -->
+
+							<!--pagination-->
+							<nav aria-label="Page navigation example">
+								<ul class="pagination justify-content-center">
+								    <li class="page-item">
+								      <a class="page-link" href="#" aria-label="Previous">
+								        <span aria-hidden="true">&laquo;</span>
+								      </a>
+								    </li>
+								    <li class="page-item"><a class="page-link" href="#">1</a></li>
+								    <li class="page-item"><a class="page-link" href="#">2</a></li>
+								    <li class="page-item"><a class="page-link" href="#">3</a></li>
+								    <li class="page-item">
+								      <a class="page-link" href="#" aria-label="Next">
+								        <span aria-hidden="true">&raquo;</span>
+								      </a>
+								    </li>
+								 </ul>
+							</nav>
+
+					</div> <!-- CHIUDE COLONNA TAB+ITEMS -->
+				</div>
+
+					
+			</section>
+		</main>
+
+		<!--footer-->
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 mt-4">
+						<h2>Olivetti Collections</h2>
+						Progetto per il corso <em>Digital Humanities e patrimonio culturale</em> <br>
+						A.A 2020-2021. <br>Laurea magistrale in Arti Visive, Università di <br>Bologna.<br>
+						<a href="#navbar"><button type="button" class="btn btn-secondary" id="btn-footer">Torna su</button></a>
+
+					</div>	
+
+					<div class="col-md-1"></div>
+					
+					<div class="col-md-3 mt-4">
+						
+						<h2>Licenze</h2>
+						This work is licensed under a Creative Commons Attribution 4.0 International License. 
+						<a href="http://creativecommons.org/licenses/by/4.0/" class="btn btn-light" target="_blank"
+	                    title="Licenza Creative Commons CC BY 4.0">
+	                    <img alt="Creative Commons License" style="border-width:0; width: 60px;"
+	                    src="https://i.creativecommons.org/l/by/4.0/88x31.png" /> </a>
+
+	    
+					</div>
+
+
+					<div class="col-md-4 mt-4">
+					<ul>
+						<h2>Contatti</h2>
+						<li><a href="#" class="link-f">Beatrice Bosco</a></li>
+						<li><a href="https://www.unibo.it/it" class="link-f">Alma Mater Studiorum Università di Bologna</a></li>
+						<li><a href="https://corsi.unibo.it/magistrale/artivisive" class="link-f">Dipartimento di Arti Visive</a></li>
+						<li><i class="bi bi-instagram"></i> <i class="bi bi-facebook"> </i><i class="bi bi-twitter"></i></li>
+					</ul>
+					</div>
+						
+				</div>
+			</div>
+
+			<div class="container-fluid bg-light">
+            	<p class="text-center text-dark mb-0 p-2">&copy; Copyright 2021 Beatrice Bosco - Dipartimento di Arti Visive, Università di Bologna.</p>
+        	</div>
+		</footer>
+
+
+
+
+		<!--JS-->
+		<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+				integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+				<!-- bootstrap js -->
+		<script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+	</body>
+</html>
+
+
+
+

@@ -1,0 +1,96 @@
+/* google fonts */
+@import @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@200&display=swap');
+
+/*TITOLO*/
+.title-nav{
+  font-family: 'Noto Sans Mono', monospace;
+}
+
+.title-page {
+   font-family: 'Noto Sans Mono', monospace;
+
+}
+
+.background-gray {
+  background-color: lightgray;
+
+}
+
+.titolo-pagina{
+  background-color: lightgray;: 
+
+}
+
+
+
+
+
+#searchButton {
+  background : gray;
+  color: white ;
+  border: 2px gray;
+}
+
+#searchButton:hover {
+  color: gray;
+  background-color: white;
+}
+
+
+
+.card-items{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   margin-bottom: 30px;
+   
+}
+
+.btn-primary{
+  
+    background : gray;
+  color: white;
+  border: gray;
+
+ }
+
+.btn-primary:hover {
+  color: gray;
+  background-color: white;
+  border: gray;
+}
+
+.item-costantini{
+  margin-bottom: 30px;
+}
+
+
+footer {
+  height: 300px;
+  background-color: lightgray;
+  color: black;
+}
+
+footer h2 {
+  margin-top: 30px;
+}
+
+
+
+#btn-footer{
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 30px;
+
+}
+
+#btn-footer:hover {
+color: grey;
+background-color: white;}
+
+.link-f{
+  color: black;
+  text-decoration: underline;
+
+}
+
+
+
