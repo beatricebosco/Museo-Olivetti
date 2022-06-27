@@ -3,7 +3,7 @@
 
 /*TITOLO*/
 .title-nav{
-  font-family: 'Noto Sans Mono', monospace;
+  font-family: 'Noto Sans Mono', monospace; color: green;
 }
 
 .title-page {
@@ -27,7 +27,7 @@
 
 #searchButton {
   background : gray;
-  color: white ;
+  color: red ;
   border: 2px gray;
 }
 
