@@ -3,13 +3,19 @@
 
 
 .title-nav{
-  font-family: 'Noto Sans Mono', monospace;
+  font-family: 'Noto Sans Mono', monospace; color: green;
+
 }
+
 
 .background-gray{
   background-color: lightgray;
 }
-
+ 
+ #searchButton {
+  background : gray;
+  color: red ;
+  border: 2px gray;}
 
 .card-carousel{
   width: 98%;
