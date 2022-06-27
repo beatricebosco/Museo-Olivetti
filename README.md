@@ -1,3 +1,3 @@
-# Olivetti Collections
+# Museo Olivetti
 
-Il progetto Olivetti Collections è un progetto di Digital Humanities, realizzato per i corso Digital Humanities e patrimonio culturale dell'A.A 2020/2021. 
+Il progetto Museo Olivetti è un progetto di Digital Humanities, realizzato per proporre delle novità nella fruizione digitale della Raccolta di opere d'arte Olivetti
