@@ -3,7 +3,7 @@
 
 
 .title-nav{
-  font-family: 'Noto Sans Mono', monospace;
+  font-family: 'Noto Sans Mono', monospace; color: green;
 }
 
 /*SFONDO */
@@ -14,7 +14,7 @@
 
 #searchButton {
   background : gray;
-  color: white ;
+  color: red ;
   border: 2px gray;
 }
 
@@ -46,7 +46,7 @@
 #jumbotron-progetto {
   width: 60%;
   margin-left: 40px;
-  height: 450px;
+  height: 480px;
 }
 
 #btn-project {
@@ -135,6 +135,7 @@ margin-bottom: 8px;
 #ivreaContainer{
   background-color: #b3b3b3;
   padding-top: 20px;
+  margin-right: 80px;
   border-radius: 20px;
 }
 
@@ -184,6 +185,9 @@ background-color: white;
   text-decoration: underline
 }
 
+
+
+.ivrea_co
 
 
 
